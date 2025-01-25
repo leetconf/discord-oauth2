@@ -13,6 +13,6 @@ This project is divided into two main components. Here is what each component do
 -   Listens for MEMBER_REMOVE events through Discord's WebSocket API.
 -   Detects an authenticated user leaving the server -> immediately refreshes that user's access/refresh token (if expired) and makes them join the server back.
 
-## Setup support
+### Setup support
 - My Discord: @packslasher
 - My Telegram @coinise
