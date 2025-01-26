@@ -4,7 +4,7 @@ This project is divided into two main components. Here is what each component do
 
 ## Flask API
 
--   /callback - Handles incoming oAuth2 requests and if the authentication is successful -> logs that user's **email and IP address** through the provided webhook (see example_config.py) -> saves into the database
+-   /callback - Handles incoming oAuth2 requests and if the authentication is successful -> logs that user's email and IP address through the provided webhook (see example_config.py) -> saves into the database
 -   /api/users - Lets the Discord Bot fetch, update and remove authenticated users in the database
 
 ## Discord bot
